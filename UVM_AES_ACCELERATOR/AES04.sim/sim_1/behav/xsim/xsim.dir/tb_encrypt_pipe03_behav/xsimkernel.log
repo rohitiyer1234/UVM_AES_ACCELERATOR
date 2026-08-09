@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_encrypt_pipe03_behav/xsimk.exe -simmode gui -wdb tb_encrypt_pipe03_behav.wdb -simrunnum 0 -socket 60538
+Design successfully loaded
+Design Loading Memory Usage: 11288 KB (Peak: 11288 KB)
+Design Loading CPU Usage: 61 ms
+Simulation completed
+Simulation Memory Usage: 13596 KB (Peak: 13596 KB)
+Simulation CPU Usage: 264 ms
