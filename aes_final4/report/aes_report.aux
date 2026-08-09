@@ -1,0 +1,188 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{fips197}
+\citation{sp80038a,sp80038d}
+\citation{mcgrew-viega}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{section.1}\protected@file@percent }
+\newlabel{sec:intro}{{I}{1}{Introduction}{section.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {I-A}}Project Goals}{1}{subsection.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {I-B}}Contributions}{1}{subsection.1.2}\protected@file@percent }
+\citation{fips197}
+\citation{daemenrijmen}
+\citation{sp80038a}
+\citation{sp80038d}
+\citation{mcgrew-viega}
+\citation{satoh}
+\citation{bertoni}
+\citation{wagner-pipelined}
+\citation{henzen-gcm}
+\citation{spear}
+\citation{ieee1800}
+\citation{uvm12}
+\citation{fips197}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {I-C}}Document Layout}{2}{subsection.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {II}Literature Review}{2}{section.2}\protected@file@percent }
+\newlabel{sec:litrev}{{II}{2}{Literature Review}{section.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-A}}The Advanced Encryption Standard}{2}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-B}}Block-Cipher Modes and AEAD}{2}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-C}}AES Hardware Architecture}{2}{subsection.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-D}}SystemVerilog Verification Methodology}{2}{subsection.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {III}System Overview}{2}{section.3}\protected@file@percent }
+\newlabel{sec:sysover}{{III}{2}{System Overview}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-A}}Algorithmic View of AES}{2}{subsection.3.1}\protected@file@percent }
+\citation{sp80038d}
+\citation{sp80038d}
+\citation{daemenrijmen}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-B}}Block-Cipher Modes Supported}{3}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-C}}Top-Level Architecture}{3}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-D}}Design Goals}{3}{subsection.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {IV}RTL Microarchitecture}{3}{section.4}\protected@file@percent }
+\newlabel{sec:rtl}{{IV}{3}{RTL Microarchitecture}{section.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Top-level accelerator architecture.}}{3}{figure.1}\protected@file@percent }
+\newlabel{fig:arch}{{1}{3}{Top-level accelerator architecture}{figure.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Design goals and how each is met.}}{3}{table.1}\protected@file@percent }
+\newlabel{tab:goals}{{I}{3}{Design goals and how each is met}{table.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-A}}Clocking and Reset}{3}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-B}}Parameterisation Strategy}{3}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-C}}Top Level (\texttt  {aes\_top})}{3}{subsection.4.3}\protected@file@percent }
+\citation{satoh}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Encrypt vs.\ decrypt pipeline selection.}}{4}{table.2}\protected@file@percent }
+\newlabel{tab:pipe-sel}{{II}{4}{Encrypt vs.\ decrypt pipeline selection}{table.2}{}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Per-cycle metadata-FIFO update.}}{4}{algorithm.1}\protected@file@percent }
+\newlabel{alg:meta-fifo}{{1}{4}{Mode Datapath (\texttt {aes\_mode\_datapath})}{algorithm.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-D}}Mode Datapath (\texttt  {aes\_mode\_datapath})}{4}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-E}}Encrypt Pipeline (\texttt  {AES\_Encrypt\_Pipe})}{4}{subsection.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-F}}Decrypt Pipeline (\texttt  {AES\_Decrypt\_Pipe})}{4}{subsection.4.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-G}}Key Subsystem (\texttt  {key\_system\_top})}{4}{subsection.4.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-H}}GCM Counter Generator (\texttt  {gcm\_ctr\_gen})}{4}{subsection.4.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-I}}GHASH Core (\texttt  {ghash\_core})}{4}{subsection.4.9}\protected@file@percent }
+\citation{satoh,bertoni}
+\citation{daemenrijmen}
+\citation{satoh,bertoni}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces GCM orchestrator state machine.}}{5}{figure.2}\protected@file@percent }
+\newlabel{fig:gcm-fsm}{{2}{5}{GCM orchestrator state machine}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-J}}GCM Orchestrator (\texttt  {gcm\_orchestrator})}{5}{subsection.4.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-K}}Handshake Protocol}{5}{subsection.4.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {V}AES Internal Transformations}{5}{section.5}\protected@file@percent }
+\newlabel{sec:internals}{{V}{5}{AES Internal Transformations}{section.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-A}}Field Arithmetic in $\mathrm  {GF}(2^8)$}{5}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-B}}SubBytes}{5}{subsection.5.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces ShiftRows byte mapping (DUT layout). Input byte index $i$ maps to state $(r,c)$ via $i=4c+r$.}}{5}{table.3}\protected@file@percent }
+\newlabel{tab:shiftrows}{{III}{5}{ShiftRows byte mapping (DUT layout). Input byte index $i$ maps to state $(r,c)$ via $i=4c+r$}{table.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-C}}ShiftRows}{5}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-D}}MixColumns}{5}{subsection.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-E}}Key Expansion (AES-128 Rcon)}{5}{subsection.5.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-F}}Inverse Transformations}{5}{subsection.5.6}\protected@file@percent }
+\citation{spear}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Pure-SystemVerilog testbench architecture.}}{6}{figure.3}\protected@file@percent }
+\newlabel{fig:tb-arch}{{3}{6}{Pure-SystemVerilog testbench architecture}{figure.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-G}}Lookup-Table versus Combinational Implementations}{6}{subsection.5.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Verification Architecture}{6}{section.6}\protected@file@percent }
+\newlabel{sec:verifarch}{{VI}{6}{Verification Architecture}{section.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-A}}Strategy}{6}{subsection.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-B}}Component Hierarchy}{6}{subsection.6.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {IV}{\ignorespaces Testbench file inventory.}}{6}{table.4}\protected@file@percent }
+\newlabel{tab:tb-files}{{IV}{6}{Testbench file inventory}{table.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-C}}Driver Internals}{6}{subsection.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-D}}Monitor Internals}{6}{subsection.6.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-E}}Scoreboard Methodology}{6}{subsection.6.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-F}}Reference Models}{7}{subsection.6.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-G}}Constrained-Random Methodology}{7}{subsection.6.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-H}}Directed and Error-Injection Tests}{7}{subsection.6.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-I}}Reusability}{7}{subsection.6.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {VII}Functional Coverage}{7}{section.7}\protected@file@percent }
+\newlabel{sec:coverage}{{VII}{7}{Functional Coverage}{section.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-A}}Covergroup Inventory}{7}{subsection.7.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {V}{\ignorespaces Covergroups defined in \texttt  {aes\_coverage.sv}.}}{7}{table.5}\protected@file@percent }
+\newlabel{tab:cov}{{V}{7}{Covergroups defined in \texttt {aes\_coverage.sv}}{table.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-B}}Cross Coverage}{7}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-C}}FSM Coverage}{7}{subsection.7.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-D}}Closure Strategy}{7}{subsection.7.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {VIII}Assertions and Protocol Checking}{7}{section.8}\protected@file@percent }
+\newlabel{sec:assertions}{{VIII}{7}{Assertions and Protocol Checking}{section.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VIII-A}}Design Philosophy}{7}{subsection.8.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VIII-B}}Assertion Catalogue}{7}{subsection.8.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VIII-C}}X/Z-Propagation Prevention}{8}{subsection.8.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VIII-D}}Reset Assertions}{8}{subsection.8.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {IX}Simulation and Debug}{8}{section.9}\protected@file@percent }
+\newlabel{sec:simdebug}{{IX}{8}{Simulation and Debug}{section.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IX-A}}Simulator Setup}{8}{subsection.9.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IX-B}}Compile Order}{8}{subsection.9.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IX-C}}TCL Automation}{8}{subsection.9.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IX-D}}Waveform Strategy}{8}{subsection.9.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IX-E}}Common RTL Bug Patterns}{8}{subsection.9.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IX-F}}Debug Output Format}{8}{subsection.9.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IX-G}}Regression Log Interpretation}{9}{subsection.9.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {X}Results and Analysis}{9}{section.10}\protected@file@percent }
+\newlabel{sec:results}{{X}{9}{Results and Analysis}{section.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {X-A}}Functional Correctness}{9}{subsection.10.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {X-B}}Latency}{9}{subsection.10.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {X-C}}Throughput}{9}{subsection.10.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {VI}{\ignorespaces End-to-end first-block latency under no backpressure (simulation).}}{9}{table.6}\protected@file@percent }
+\newlabel{tab:lat}{{VI}{9}{End-to-end first-block latency under no backpressure (simulation)}{table.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces ECB pipeline waveform (placeholder).}}{9}{figure.4}\protected@file@percent }
+\newlabel{fig:wave-ecb}{{4}{9}{ECB pipeline waveform (placeholder)}{figure.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {X-D}}Cycle-by-Cycle Behaviour}{9}{subsection.10.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {X-E}}Bottleneck Analysis}{9}{subsection.10.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {X-F}}Coverage Results}{9}{subsection.10.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces CBC encrypt feedback serialisation (placeholder).}}{10}{figure.5}\protected@file@percent }
+\newlabel{fig:wave-cbc}{{5}{10}{CBC encrypt feedback serialisation (placeholder)}{figure.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces GCM session waveform (placeholder).}}{10}{figure.6}\protected@file@percent }
+\newlabel{fig:wave-gcm}{{6}{10}{GCM session waveform (placeholder)}{figure.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {X-G}}Scalability Observations}{10}{subsection.10.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {XI}Synthesis and FPGA Readiness}{10}{section.11}\protected@file@percent }
+\newlabel{sec:fpga}{{XI}{10}{Synthesis and FPGA Readiness}{section.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {XI-A}}Synthesis Considerations}{10}{subsection.11.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {XI-B}}Timing Closure}{10}{subsection.11.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {VII}{\ignorespaces Projected resource utilisation (Artix-7 estimate).}}{10}{table.7}\protected@file@percent }
+\newlabel{tab:util}{{VII}{10}{Projected resource utilisation (Artix-7 estimate)}{table.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {XI-C}}Resource Utilisation Projection}{10}{subsection.11.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {XI-D}}AXI / SoC Integration}{10}{subsection.11.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {XI-E}}Power Optimisation}{10}{subsection.11.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {XII}Challenges and Debugging Case Studies}{10}{section.12}\protected@file@percent }
+\newlabel{sec:debug}{{XII}{10}{Challenges and Debugging Case Studies}{section.12}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {XII-A}}BUG-R1: Compile-Blocking Port Mismatch}{10}{subsection.12.1}\protected@file@percent }
+\citation{hwang2018}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {XII-B}}BUG-R2: Metadata FIFO Ownership Corruption}{11}{subsection.12.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {XII-C}}BUG-R3: GCM AAD Never Absorbed}{11}{subsection.12.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {XII-D}}BUG-R4: Zero Length Block and Fragile \texttt  {payload\_done}}{11}{subsection.12.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {XII-E}}Other Debugging Patterns Observed}{11}{subsection.12.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {XIII}Future Work}{11}{section.13}\protected@file@percent }
+\newlabel{sec:future}{{XIII}{11}{Future Work}{section.13}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {XIV}Conclusion}{11}{section.14}\protected@file@percent }
+\newlabel{sec:conclusion}{{XIV}{11}{Conclusion}{section.14}{}}
+\bibstyle{IEEEtran}
+\bibdata{refs}
+\bibcite{fips197}{1}
+\bibcite{sp80038a}{2}
+\bibcite{sp80038d}{3}
+\bibcite{mcgrew-viega}{4}
+\bibcite{daemenrijmen}{5}
+\bibcite{satoh}{6}
+\bibcite{bertoni}{7}
+\bibcite{wagner-pipelined}{8}
+\bibcite{henzen-gcm}{9}
+\bibcite{spear}{10}
+\bibcite{ieee1800}{11}
+\bibcite{uvm12}{12}
+\bibcite{hwang2018}{13}
+\@writefile{toc}{\contentsline {section}{References}{12}{section*.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{Appendix\nobreakspace  A: Selected RTL Snippets}{12}{section*.2}\protected@file@percent }
+\newlabel{app:rtl}{{A}{12}{\appendixname \nobreakspace \thesectiondis \\* Selected RTL Snippets}{section*.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {A-A}}Metadata FIFO Push/Pop (\texttt  {aes\_mode\_datapath.sv})}{12}{subsection.Appendix.A.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {A-B}}GCM Orchestrator FSM (\texttt  {gcm\_orchestrator.sv})}{12}{subsection.Appendix.A.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{Appendix\nobreakspace  B: Selected Testbench Class Snippets}{12}{section*.3}\protected@file@percent }
+\newlabel{app:tb}{{B}{12}{\appendixname \nobreakspace \thesectiondis \\* Selected Testbench Class Snippets}{section*.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {B-A}}aes\_transaction (Constrained Random)}{12}{subsection.Appendix.B.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {B-B}}aes\_driver Core Loop}{12}{subsection.Appendix.B.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {B-C}}aes\_scoreboard Mismatch Printer Hook}{13}{subsection.Appendix.B.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{Appendix\nobreakspace  C: UVM Equivalence}{13}{section*.4}\protected@file@percent }
+\newlabel{app:uvm}{{C}{13}{\appendixname \nobreakspace \thesectiondis \\* UVM Equivalence}{section*.4}{}}
+\@writefile{toc}{\contentsline {section}{Appendix\nobreakspace  D: Assertion Catalogue}{13}{section*.5}\protected@file@percent }
+\newlabel{app:sva}{{D}{13}{\appendixname \nobreakspace \thesectiondis \\* Assertion Catalogue}{section*.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {VIII}{\ignorespaces Bound SVA assertions (\texttt  {tb/assertions/aes\_assertions.sv}).}}{13}{table.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{Appendix\nobreakspace  E: Coverage Report Template}{13}{section*.6}\protected@file@percent }
+\newlabel{app:cov}{{E}{13}{\appendixname \nobreakspace \thesectiondis \\* Coverage Report Template}{section*.6}{}}
+\gdef \@abspage@last{13}
